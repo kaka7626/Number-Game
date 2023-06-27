@@ -19,4 +19,4 @@ for guessTaken in range(1, 8):
 if guessNumber == randomNumber:
     print('Bạn đoán đúng rồi! Chúc mừng bạn! Bạn chỉ mất ' + str(guessTaken) + ' lần để đoán đúng')
 else:
-    print('Chúc may mắn lần sau nha! Bạn tốn ' + str(guessTaken) + ' lần mà vẫn đoán sai :))' + 'Con số bạn cần đoán là: ' + str(randomNumber))
+    print('Chúc may mắn lần sau nha! Bạn tốn ' + str(guessTaken) + ' lần mà vẫn đoán sai :))' + ' Con số bạn cần đoán là: ' + str(randomNumber))
